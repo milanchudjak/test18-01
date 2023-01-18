@@ -1,2 +1,2 @@
-SELECT OrderID, OrderDate
+SELECT OrderID, OrderDate, OrderDetailID, mesto
 FROM Orders
