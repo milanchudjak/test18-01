@@ -5,4 +5,3 @@ ON OrderDetails.OrderID = Orders.OrderID
 INNER JOIN Products
 ON Products.ProductID = OrderDetails.ProductID
 GROUP BY OrderDetailID
-
